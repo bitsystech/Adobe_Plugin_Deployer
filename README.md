@@ -16,7 +16,7 @@ If you want to build from scratch, use the following instructions:
 
 How it works:
 
-1. The Bash Script calls the Apple script to kill application. 
+1. The Bash Script calls the Apple script to kill application. (Yeah I know you can do this with bash as well)
 2. Once InDesign is detected and killed, bash script continues and to install the plugin.
 3. After Plugin installation, a notification is displayed using Cocoa Dialog.
 4. If you want to make it better, you can use Cocoa Dialog to send out notification once installation is complete.
